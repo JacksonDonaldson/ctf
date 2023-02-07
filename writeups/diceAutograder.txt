@@ -1,0 +1,19 @@
+We are presented with an autograder system; goal: pass all test cases, even the impossible ones.
+
+I started by creating a subclass of int that overrode the equality operator to always return true.
+This worked on a number of cases, but failed on the "hidden test case," and a few others that did explicit casts 
+before testing the data.
+
+Got arbitrary data exfiltration from SamXML on Wolvsec discord by asserting false with a custom string as the error message.
+Used this with sys._getframe to print out the entire stack trace, including the local variables of each calling function
+
+At this point there's probably any number of ways to grab the flag, either directly or by passing all the test cases.
+I ended up finding the frame with the class managing the tests, copied all the test cases into the "success" list, and 
+replaced the "failures" list with my own subclass of list that always appears empty.
+
+This worked for everything except the hidden test case; I reached in and called that hidden function and found it was 
+always throwing an exception, so I overwrote the function being called with one that didn't do anything.
+
+This got the autograder to print out the flag. 
+
+(see diceAutograder.py for code)
