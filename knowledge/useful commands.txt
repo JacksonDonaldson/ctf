@@ -1,0 +1,6 @@
+binwalk: stego / file extraction
+
+mmls: view partitions of .img
+fls: list files/folders of given partion (use -o byte location given by mmls), optional arg at end to get subdirectory
+icat: cat file
+see https://github.com/not1cyyy/CTF-Writeups/wiki/PicoCTF-:-Sleuthkit-Apprentice

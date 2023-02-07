@@ -1,0 +1,7 @@
+VERSION=1
+/
+  00000001:badge-and-pin.bin:ac14e01f2da1402077693766700
+/New Traces
+  00000002:Emulate badge-and-pin.bin:ac14e01f5b81410519366622500
+NEXT-ID:3
+MD5:d41d8cd98f00b204e9800998ecf8427e

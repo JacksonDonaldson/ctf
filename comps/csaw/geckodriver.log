@@ -1,0 +1,19 @@
+1662744397662	geckodriver	INFO	Listening on 127.0.0.1:63627
+1662744400649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Jaxn8\\AppData\\Local\\Temp\\rust_mozprofile4m9mda"
+1662744401266	Marionette	INFO	Marionette enabled
+1662744401274	Marionette	INFO	Listening on port 63637
+1662744401796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jaxn8\\AppData\\Local\\Temp\\rust_mozprofile4m9mda\\search.json.mozlz4", (void 0)))
+1662744647317	Marionette	INFO	Stopped listening on port 63637
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 29556, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jaxn8\\AppData\\Local\\Temp\\rust_mozprofilekhnQje\\search.json.mozlz4", (void 0)))
+1662744613330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662744650698	Marionette	INFO	Stopped listening on port 63801
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Marionette enabled
+1662744641221	Marionette	INFO	Listening on port 63880
+1662744641684	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Jaxn8\\AppData\\Local\\Temp\\rust_mozprofileUAl2Mk\\search.json.mozlz4", (void 0)))
+1662745499705	Marionette	INFO	Stopped listening on port 63880
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

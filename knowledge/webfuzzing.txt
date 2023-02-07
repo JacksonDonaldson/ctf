@@ -1,0 +1,1 @@
+use dirb with wordlist urlList.txt & potentially extensions if needed
