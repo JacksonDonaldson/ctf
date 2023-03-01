@@ -63,7 +63,7 @@ while True:
     factors = p_factors + q_factors
     if e not in factors:
         break
-
+_DEBUG = True
 if _DEBUG:
     import sys
     sys.stderr.write(f'p = {p.digits(16)}\n\n')

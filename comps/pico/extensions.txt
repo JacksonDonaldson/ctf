@@ -1,7 +1,0 @@
-.txt
-.css
-.js
-.jpg
-.png
-.php
-.gif

@@ -1,2 +1,3 @@
 eip offset finder: https://projects.jason-rush.com/tools/buffer-overflow-eip-offset-string-generator/
 general hash generator: https://www.browserling.com/tools/all-hashes
+analyze websites: https://www.wappalyzer.com/

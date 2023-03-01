@@ -1,1 +1,7 @@
+for directories / files:
 use dirb with wordlist urlList.txt & potentially extensions if needed
+
+for subdomains:
+use wfuzz
+(wfuzz -w ./ctf/knowledge/subdomains.txt -u "http://thetoppers.htb" -H "Host: FUZZ.thetoppers.htb" --hw 1036)
+--hw to hide responses with word count 1036
