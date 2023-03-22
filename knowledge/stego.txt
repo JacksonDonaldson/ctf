@@ -1,2 +1,3 @@
 https://stegonline.georgeom.net/checklist
 https://exifdata.com/
+steghide pw cracking: stegseek

