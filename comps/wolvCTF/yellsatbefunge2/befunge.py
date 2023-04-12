@@ -126,3 +126,5 @@ def befunge(GRID):
       PC[1] += DIR_DELTAS[DIR + 1]
     except:
       break
+  for g in GRID:
+    print("".join(g))
