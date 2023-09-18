@@ -2,3 +2,4 @@ eip offset finder: https://projects.jason-rush.com/tools/buffer-overflow-eip-off
 general hash generator: https://www.browserling.com/tools/all-hashes
 analyze websites: https://www.wappalyzer.com/
 exfil: webhook.site
+emulate and debug arm: http://0x90909090.blogspot.com/2014/01/how-to-debug-arm-binary-under-x86-linux.html
